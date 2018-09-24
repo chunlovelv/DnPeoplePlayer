@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements PeoplePlayer.OnPr
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(MainActivity.this,"视频准备好了",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"视频准备好了....",Toast.LENGTH_SHORT).show();
             }
         });
         mPeoplePlayer.start();
